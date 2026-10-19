@@ -1,4 +1,4 @@
-# psychedelic
+# ncurses_psychedelic
 
 A psychedelic ANSI "video" for the terminal, written in C with ncurses.
 
@@ -17,7 +17,7 @@ Requires `libncurses-dev` and a C compiler.
 ## Run
 
 ```sh
-./psychedelic
+./ncurses_psychedelic
 ```
 
 ## Keys

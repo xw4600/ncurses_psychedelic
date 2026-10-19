@@ -2,10 +2,10 @@ CC      ?= gcc
 CFLAGS  ?= -O2 -Wall -Wextra
 LDLIBS  := -lncurses -lm
 
-psychedelic: psychedelic.c
+ncurses_psychedelic: ncurses_psychedelic.c
 	$(CC) $(CFLAGS) -o $@ $< $(LDLIBS)
 
 clean:
-	rm -f psychedelic
+	rm -f ncurses_psychedelic
 
 .PHONY: clean
